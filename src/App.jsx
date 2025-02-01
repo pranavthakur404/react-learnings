@@ -1,10 +1,10 @@
 import React from "react";
-import Counter from "./components/Counter";
+import Example1 from "./components/example1/Example1";
 
 const App = () => {
   return (
-    <div>
-      <Counter />
+    <div className="w-full">
+      <Example1 />
     </div>
   );
 };
